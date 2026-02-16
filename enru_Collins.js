@@ -10,7 +10,7 @@ class builtin_encn_Collins {
         let locale = await api.locale();
         if (locale.indexOf('CN') != -1) return '柯林斯英汉双解(内置)';
         if (locale.indexOf('TW') != -1) return '柯林斯英漢雙解(內置)';
-        return 'Collins EN->CN Dictionary((builtin))';
+        return 'Collins EN->RU Dictionary((builtin-based))';
     }
 
 
